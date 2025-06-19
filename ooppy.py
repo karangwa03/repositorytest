@@ -71,3 +71,5 @@ class SavingsAcct(InterestRewardsAcc):
         except BalanceException as error:
             print(f"\nWithdrawal Error: {error}")
 
+ except BalanceException as error:
+            print(f"\nWithdrawal Error: {error}")
